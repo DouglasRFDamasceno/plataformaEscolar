@@ -1,0 +1,30 @@
+{
+  "name": "index",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DouglasRFDamasceno/plataformaEscolar.git"
+  },
+  "author": "Douglas Roberto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DouglasRFDamasceno/plataformaEscolar/issues"
+  },
+  "homepage": "https://github.com/DouglasRFDamasceno/plataformaEscolar#readme",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6",
+    "sequelize-cli": "^6.2.0"
+  }
+}

@@ -9,6 +9,10 @@ export class SchoolMaterialComponent implements OnInit {
 
   constructor() { }
 
+  cadastrar(): void {
+	  console.log('oi');
+
+  }
   ngOnInit(): void {
   }
 

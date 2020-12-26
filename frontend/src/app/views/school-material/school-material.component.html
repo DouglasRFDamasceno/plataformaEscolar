@@ -5,8 +5,33 @@
 	<mat-card-subtitle class="subtitle">
 		Material de apoio aos estudos
 	</mat-card-subtitle>
-	<button mat-raised-button (click)="cadastrar()">
-		Botão teste
+	<button mat-raised-button (click)="materialApoio()">
+		Material de apoio
 	</button>
+
+	<!-- <form action="/img" enctype="multipart/form-data" method="post">
+		<input type="file" name="files" id="files">
+		<input type="submit" value="upload">
+	</form> -->
+
+	<form>
+		<input type="file" id="logoRelatorio" name="file" (change)="onSelectedFilesChanged($event)">
+		<!-- <button mat-raised-button (click)="onUploadClicked()">
+			Enviar
+		</button> -->
+		<!-- <mat-file-upload
+			[labelText]="'Selecione o arquivo para upload:'"
+			[selectButtonText]="'Selecione'"
+			[selectFilesButtonType]="button"
+			[uploadButtonText]="'Enviar'"
+			[allowMultipleFiles]="true"
+			[showUploadButton]="true"
+			[acceptedTypes]="'.png, .jpg, .jpeg'"
+			(selectedFilesChanged)="onSelectedFilesChanged($event)"
+			>
+		</mat-file-upload> -->
+	</form>
+		<!-- <input id="file" type="file" class="form-control" placeholder="Imagen" name="image" multiple> -->
+
 </mat-card>
 

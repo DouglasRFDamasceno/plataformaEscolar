@@ -11,8 +11,16 @@
 }
 
 .ead {
-	padding-top: 25px;
 	display: block;
 	margin-left: auto;
-    margin-right: auto
+	margin-right: auto;
+	max-width:550px;
+    max-height:500px;
+    width: auto;
+    height: auto;
+}
+
+.reference {
+	text-align: center;
+	font-size: 0.7rem;
 }
